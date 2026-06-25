@@ -21,7 +21,7 @@
         layer_0 {
             bindings = <
 &kp ESC           &kp Q         &kp L    &kp U      &kp COMMA     &kp PERIOD     &kp F              &kp W            &kp R  &kp Y     &kp P    &kp EQUAL
-&kp LEFT_CONTROL  &kp E         &kp I    &kp A      &kp O         &kp MINUS      &kp K              &kp T            &kp N  &kp S     &lt 1 H  &kp ENTER
+&kp LEFT_CONTROL  &kp E         &kp I    &kp A      &kp O         &kp MINUS      &kp K              &lt 4 T          &kp N  &kp S     &lt 1 H  &kp ENTER
 &kp LSHFT         &kp Z         &kp X    &kp C      &kp V         &kp SEMICOLON  &lt 3 PRINTSCREEN  &lt 5 BACKSLASH  &kp G  &kp D     &kp M    &kp J       &lt 5 B  &kp NON_US_BACKSLASH
 &kp GRAVE         &kp LEFT_WIN  &kp SQT  &kp SLASH  &kp LEFT_ALT  &kp SPACE      &lt 2 TAB          &kp BACKSPACE    &mo 4  &kp HOME  &kp END  &kp C_MENU
             >;
