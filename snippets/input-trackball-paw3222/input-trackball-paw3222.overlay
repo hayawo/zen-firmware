@@ -11,7 +11,7 @@
 
         /* Must match the &scroll_scaler args downstream. */
         scale = <1>;
-        scale-div = <22>;
+        scale-div = <18>;
 
         /* Lowered from the default (7) to match our small scale/scale-div
          * ratio: output frequency at cutoff = stop * scale * 125 / scale-div. */
@@ -43,7 +43,7 @@
         input-processors =
             <&zip_xy_to_scroll_mapper>,
             <&paw3222_scroll_inertia>,
-            <&scroll_scaler 1 22>;
+            <&scroll_scaler 1 18>;
         process-next;
     };
 };

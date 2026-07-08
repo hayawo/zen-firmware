@@ -21,7 +21,7 @@
 
         /* Must match the &pmw3610_scroll_scaler args downstream. */
         scale = <1>;
-        scale-div = <16>;
+        scale-div = <13>;
 
         /* Lowered from the default (7) to match our small scale/scale-div
          * ratio: output frequency at cutoff = stop * scale * 125 / scale-div. */
@@ -61,7 +61,7 @@
             <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_Y_INVERT)>,
             <&zip_xy_to_scroll_mapper>,
             <&pmw3610_scroll_inertia>,
-            <&pmw3610_scroll_scaler 1 16>;
+            <&pmw3610_scroll_scaler 1 13>;
         process-next;
     };
 };
